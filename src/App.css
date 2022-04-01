@@ -1,38 +1,196 @@
-.App {
-  text-align: center;
+
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css";
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.center{
+  width: 100%;
+  margin: 0 auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.main {
+  width: 100%;
+  padding: 40px 0;
+}
+
+.subtitle{
+  font-family: "Raleway", sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+.section{
+  width: 100%;
+}
+
+.competence-column ul , .competence-column p{
+  list-style: none;
+  margin:0 0;
+  font-weight: 300;
+}
+
+.aboutme-section{
+  background-color: #1E42A7;
+  padding-bottom: 400px;
+  padding-top: 100px;
+}
+
+.competence-box{
+  margin-top: -300px;
+}
+
+.competence-box
+
+.competence-box .content h2{
+  padding:  20px 0;
+}
+
+.primary-color{
+  color: #1E42A7 !important;
+}
+
+.competence-column {
+  border-right: 1px solid #E6ECF8;
+}
+
+.others-competence{
+  border-right: 0;
+}
+
+.introduction p {
+  font-weight: 400;
+  margin-bottom: -5px !important;
+}
+.introduction h1{
+  margin-top: 0 !important;
+  margin-bottom: -3px !important;
+  font-size: 60px;
+  font-weight: 700;
+}
+.introduction h3{
+  margin-top: 0 !important;
+}
+.code-box pre{
+
+}
+
+.gadgets{
+  position: absolute;
+  top: -128px;
+  right: 0;
+}
+
+.gadgets img
+{
+  height: 130px;
+}
+
+.success-msg{
+  color: forestgreen;
+  font-weight: 300;
+}
+
+.error-msg{
+  color: #de1515;
+  font-weight: 300;
+}
+
+.contact-form-section form {
+  max-width: 700px;
+  margin: auto;
+}
+
+/*.picture-container{*/
+/*    max-height: 250px;*/
+/*    max-width: 250px;*/
+/*}*/
+.picture-container img{
+  height: 100%;
+  width: 100%;
+  border-radius: 100%;
+  border: white solid 3px;
+}
+
+.logo-container{
+  padding-left: 40px;
+  min-width: 60px;
+}
+.logo-container img{
+  width: 90px;
+  height: 90px !important;
+}
+
+.header {
+  max-width: 1400px;
+  margin: auto;
+}
+.header-bts{
+  padding-right: 50px;
+}
+
+.contact-bt{
+  border-width: 2px;
+  border-color: #1E42A7;
+  color: #1E42A7;
+}
+
+@media (max-width: 768px) {
+  .picture-container img{
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+    border: white solid 3px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.about-me-text{
+  margin-top: 35px;
 }
 
-.App-link {
-  color: #61dafb;
+.light-text{
+  font-weight: 300;
+}
+.color-white{
+  color: white !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.call-to-action-section{
+  margin-top: 100px;
+  background-color: #1E42A7;
 }
+
+.call-to-action-section .container .box{
+  margin-top: -120px;
+  background-color: #132250;
+  border-radius: 15px;
+  padding: 50px 0;
+}
+
+.call-to-action-section .container .box div h2{
+  margin: 0 0;
+}
+
+.footer {
+  background-color: #1E42A7;
+}
+
+.content{
+  margin-bottom: 0 !important;
+}
+.main {
+  padding-bottom: 0 !important;
+}
+
+.social-media a img{
+  height: 30px;
+  width: 30px;
+  margin-right: 14px;
+}
+
+

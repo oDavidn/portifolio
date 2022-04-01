@@ -1,5 +1,4 @@
 import React from "react";
-import HeaderStyled from "./header.styled";
 import NavMenu from "./navMenu/navMenu";
 import logo from "./../../assets/images/logodavid.svg"
 
