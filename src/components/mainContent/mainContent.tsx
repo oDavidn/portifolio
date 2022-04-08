@@ -12,9 +12,9 @@ const MainContent = () => {
                              <h1 className="name">David Nunes</h1>
                              <h3>Um criativo Full Stack Developer</h3>
                              <div className=" social-media" >
-                                 <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt=""/></a>
-                                 <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/1077/1077042.png" alt=""/></a>
-                                 <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/61/61109.png" alt=""/></a>
+                                 <a href="https://github.com/oDavidn"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt=""/></a>
+                                 <a href="https://www.instagram.com/davidunfated/"><img src="https://cdn-icons-png.flaticon.com/512/1077/1077042.png" alt=""/></a>
+                                 <a href="https://br.linkedin.com/in/david-oliveira-8410ba179"><img src="https://cdn-icons-png.flaticon.com/512/61/61109.png" alt=""/></a>
                              </div>
                          </div>
                      </div>
@@ -124,7 +124,7 @@ const MainContent = () => {
                          <div className="column level-item"><h2 className="color-white" >Começar um Projeto</h2></div>
                          <div className="column level-item"><p className="color-white light-text">Interessado em trabalharmos juntos? Deveriamos marcar uma conversa. O café é por minha conta.</p></div>
                          <div className="column level-item">
-                             <a href="" className="button is-rounded is-outlined">Vamos la!</a>
+                             <a href="/contact" className="button is-rounded is-outlined">Vamos la!</a>
                          </div>
                      </div>
                  </div>
